@@ -1,0 +1,1 @@
+package com.example.sedes.OpenAI.DTO;import java.util.List;import lombok.Data;@Datapublic class ChatResponse {    private List<Choice> choices;    public String resolveFirstContent() {        return this.choices.get(0).getMessage().getContent();    }    public boolean isNull () {        return this.choices == null || this.choices.isEmpty();    }}

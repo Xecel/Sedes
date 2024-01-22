@@ -1,0 +1,1 @@
+package com.example.sedes.OpenAI.Entity;import lombok.AllArgsConstructor;import lombok.Data;import lombok.NoArgsConstructor;@Data@AllArgsConstructor@NoArgsConstructorpublic class Sentences {    private String korSentence;    private String engSentence;}
